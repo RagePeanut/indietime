@@ -1,0 +1,326 @@
+/* Global settings */
+html
+{
+	overflow-y: scroll;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("images/bg.png");
+	background-repeat: repeat;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:visited
+{
+	color: black;
+}
+h1
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 152%;
+	font-weight: normal;
+	font-family: "Montserrat";
+	text-align: center;
+}
+@font-face 
+{
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat/Montserrat-Regular.eot');
+	src: url('fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+	url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+	url('fonts/Montserrat/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: 'VCR_OSD_MONO_1';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/VCR_OSD_MONO_1/VCR_OSD_MONO_1.eot');
+	src: url('fonts/VCR_OSD_MONO_1/VCR_OSD_MONO_1.eot?#iefix') format('embedded-opentype'), 
+	url('fonts/VCR_OSD_MONO_1/VCR_OSD_MONO_1.ttf') format('truetype');
+}
+#taille
+{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1500px;
+	min-width: 640px;
+	min-height: 480px;
+	box-shadow: 0px 0px 10px grey;
+}
+/* Header */
+@font-face
+{
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/Dosis/Dosis-Regular.eot');
+	src: url('fonts/Dosis/Dosis-Regular.eot?#iefix') format('embedded-opentype'), 
+	url('fonts/Dosis/Dosis-Regular.ttf') format('truetype');
+}
+header ul
+{
+	background-image: url("images/bg1.png");
+	background-repeat: repeat;
+}
+li a
+{
+	font-size: 120%;
+}
+li a:hover
+{
+	color: grey;
+}
+#entete
+{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	list-style-type: none;
+	align-items: flex-end;
+}
+#logo
+{
+	height: 70px;
+	width: auto;
+	margin-top: 0px;
+}
+.block1
+{
+	margin-right: auto;
+	margin-left: 10px;
+}
+.lien1
+{
+	display: flex;
+	background-image: url("images/bg2.png");
+	height: 50px;
+	width: 110px;
+	min-width: 100px;
+	align-items: center;
+	justify-content: center;
+	font-family: "Dosis";
+}
+.lien2
+{
+	display: flex;
+	background-image: url("images/onglet.png");
+	height: 50px;
+	width: 110px;
+	min-width: 100px;
+	border-left: 1px solid #999999;
+	align-items: center;
+	justify-content: center;
+	font-family: "Dosis";
+}
+
+
+
+
+
+/* Main */
+main
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-image: url("images/bg2.png");
+	background-repeat: repeat;
+	padding-bottom: 30px;;
+}
+#main-block1
+{
+	display: flex;
+	margin-bottom: 10px;
+}
+/* News */
+@font-face         /* Provisoire */
+{
+	font-family: 'BebasNeue';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/BebasNeue/BebasNeue Book.eot');
+	src: url('fonts/BebasNeue/BebasNeue Book.eot?#iefix') format('embedded-opentype'), 
+	url('fonts/BebasNeue/BebasNeue Book.ttf') format('truetype');
+}
+h2
+{
+	font-family: "BebasNeue";
+	text-align: justify;
+	width: 98%;
+	text-transform : uppercase;
+}
+#news
+{
+	width: 75%;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: auto;
+}
+#news h1
+{
+	margin-bottom: 20px;
+}
+#news-scroll
+{
+	min-height: 600px;
+	max-height: 70vh;
+	overflow-y: scroll;
+	margin-top: -10px;
+}
+.news-article
+{
+	display: flex;
+	align-items: center;
+	height: 145px;
+	background-image: url("images/onglet.png");
+	border-bottom: 1px solid #999999;
+	padding-left: 5px;
+}
+.news-text
+{
+	height: 150px;
+	margin-top:-27px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.news-paragraphe
+{
+	margin-top: -15px;
+	width: 98%;
+	text-align: justify;
+}
+/* Jeux */
+h3
+{
+	font-size: 110%;
+	font-weight: normal;
+	font-family: "Dosis";
+	margin-top:-5px;
+	margin-bottom:5px;
+	color:black;
+}
+
+#jeux
+{
+	display: flex;
+	min-height: 500px;
+	max-height: 600px;
+	width: 300px;
+	margin-top: 49px;
+	margin-left: 10px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.jeux-decouverte
+{
+	display: flex;
+	height: 180px;
+	width: 100%;
+	background-image: url("images/onglet.png");
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.jeux-info
+{
+	display: flex;
+	flex-direction: column;
+}
+.jeux-prix
+{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-top: -18px;
+}
+.jeux-prix p
+{
+	color:black;
+	width: 25%;
+	margin: 0px;
+	text-align: center;
+	background-image: url("images/bg1.png");
+	font-family: "Dosis";
+}
+/* Bundle */
+#main-block2
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+#bundle
+{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	flex-direction: row;
+	width: 100%;
+	overflow-x: scroll;
+	background-image: url("images/onglet.png");
+	background-attachment: fixed;
+}
+#bundle div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	width: 370px;
+}
+#bundle a
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 175px;
+	width: 340px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#bundle img
+{
+	box-shadow: 0px 0px 20px grey;
+	-webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
+#bundle img:hover
+{
+	box-shadow: 0px 0px 20px white;
+	height: 105%;
+	width: 105%;
+}
+
+
+
+
+
+/* Footer */
+footer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: 100%;
+	background-image: url("images/bg1.png");
+	background-repeat: repeat;
+}
+footer p
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}

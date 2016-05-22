@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--Page créée par:            Dorian Gruselin                  -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<title>Indie Time: 100% indépendant</title>
+		<link rel="stylesheet" href="shame-stylesheet.css"/>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<script src="random.js"></script>
+		<script src="button.js"></script>
+	</head>
+	<body onLoad="jeuxSRandomizer(); accrocheSRandomizer();">
+		<div id="taille">	
+			<header>
+				<ul id="entete">
+					<li class="block1"><a href="index.html"><img id="logo" src="images/logo.png" alt="Indie Time: Site 100% indépendant, jeux 100% indépendants"/></a></li>	
+					<li class="block2"><a class="lien2" href="index.html">Accueil</a></li>
+					<li class="block2"><a class="lien2" href="nouveautes.html">Actualités</a></li>			
+					<li class="block2"><a class="lien2" href="tests.html">Tests</a></li>
+					<li class="block2"><a class="lien2" href="halloffame.html">Hall of Fame</a></li>
+					<li class="block2"><a class="lien1" href="#entete" onClick="jeuxSRandomizer(); accrocheSRandomizer();">Hall of Shame</a></li>
+				</ul>
+			</header>
+			<main>
+				<div id="accroche-taille"><p id="accroche-random">Télécharger Java si cette section du site ne s'affiche pas correctement! C'est gratuit ;)</p></div>
+				<div class="dropdown">
+					<button onClick="bouton()" class="dropdown-bouton">Trier par</button>
+					<div id="dropdown-liste" class="dropdown-contenu">
+						<button onClick="jeuxSSortingName()" class="dropdown-bouton">Ordre alphabétique</button><button
+						onClick="jeuxSSortingNameInverted()" class="dropdown-bouton">Ordre alphabétique inversé</button><button
+						onClick="jeuxSSortingPrice()" class="dropdown-bouton">Prix croissant</button><button
+						onClick="jeuxSSortingPriceInverted()" class="dropdown-bouton">Prix décroissant</button><button
+						onClick="jeuxSRandomizer()" class="dropdown-bouton">Hasard</button>
+					</div>
+				</div>
+				<div id="liste">
+					<div><a id="lien0" target="_blank"><img id="image0" height="175px" width="300px"/></a></div>
+					<div><a id="lien1" target="_blank"><img id="image1" height="175px" width="300px"/></a></div>
+					<div><a id="lien2" target="_blank"><img id="image2" height="175px" width="300px"/></a></div>
+					<div><a id="lien3" target="_blank"><img id="image3" height="175px" width="300px"/></a></div>
+					<div><a id="lien4" target="_blank"><img id="image4" height="175px" width="300px"/></a></div>
+					<div><a id="lien5" target="_blank"><img id="image5" height="175px" width="300px"/></a></div>
+					<div><a id="lien6" target="_blank"><img id="image6" height="175px" width="300px"/></a></div>
+					<div><a id="lien7" target="_blank"><img id="image7" height="175px" width="300px"/></a></div>
+					<div><a id="lien8" target="_blank"><img id="image8" height="175px" width="300px"/></a></div>
+					<div><a id="lien9" target="_blank"><img id="image9" height="175px" width="300px"/></a></div>
+				</div>
+			</main>
+			<footer>
+				<p>Copyright&copy; 2016 Indie Time, indietime.org - Tout droit réservé.</p>
+			</footer>	
+		</div>
+	</body>
+</html>

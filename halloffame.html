@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--Page créée par:            Dorian Gruselin                  -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<title>Indie Time: 100% indépendant</title>
+		<link rel="stylesheet" href="fame-stylesheet.css"/>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<script src="random.js"></script>
+		<script src="button.js"></script>
+	</head>
+	<body onLoad="jeuxFRandomizer(); accrocheFRandomizer();">
+		<div id="taille">	
+			<header>
+				<ul id="entete">
+					<li class="block1"><a href="index.html"><img id="logo" src="images/logo.png" alt="Indie Time: Site 100% indépendant, jeux 100% indépendants"/></a></li>	
+					<li class="block2"><a class="lien2" href="index.html">Accueil</a></li>
+					<li class="block2"><a class="lien2" href="nouveautes.html">Actualités</a></li>			
+					<li class="block2"><a class="lien2" href="tests.html">Tests</a></li>
+					<li class="block2"><a class="lien1" href="#entete" onClick="jeuxFRandomizer(); accrocheFRandomizer();">Hall of Fame</a></li>
+					<li class="block2"><a class="lien3" href="hallofshame.html">Hall of Shame</a></li>
+				</ul>
+			</header>
+			<main>
+				<div id="accroche-taille"><p id="accroche-random">Télécharger Java si cette section du site ne s'affiche pas correctement! C'est gratuit ;)</p></div>
+				<div class="dropdown">
+					<button onClick="bouton()" class="dropdown-bouton">Trier par</button>
+					<div id="dropdown-liste" class="dropdown-contenu">
+						<button onClick="jeuxFSortingName()" class="dropdown-bouton">Ordre alphabétique</button><button
+						onClick="jeuxFSortingNameInverted()" class="dropdown-bouton">Ordre alphabétique inversé</button><button
+						onClick="jeuxFSortingPrice()" class="dropdown-bouton">Prix croissant</button><button
+						onClick="jeuxFSortingPriceInverted()" class="dropdown-bouton">Prix décroissant</button><button
+						onClick="jeuxFRandomizer()" class="dropdown-bouton">Hasard</button>
+					</div>
+				</div>
+				<div id="liste">
+					<div><a id="lien0" target="_blank"><img id="image0" height="175px" width="300px"/></a></div>
+					<div><a id="lien1" target="_blank"><img id="image1" height="175px" width="300px"/></a></div>
+					<div><a id="lien2" target="_blank"><img id="image2" height="175px" width="300px"/></a></div>
+					<div><a id="lien3" target="_blank"><img id="image3" height="175px" width="300px"/></a></div>
+					<div><a id="lien4" target="_blank"><img id="image4" height="175px" width="300px"/></a></div>
+					<div><a id="lien5" target="_blank"><img id="image5" height="175px" width="300px"/></a></div>
+					<div><a id="lien6" target="_blank"><img id="image6" height="175px" width="300px"/></a></div>
+					<div><a id="lien7" target="_blank"><img id="image7" height="175px" width="300px"/></a></div>
+					<div><a id="lien8" target="_blank"><img id="image8" height="175px" width="300px"/></a></div>
+					<div><a id="lien9" target="_blank"><img id="image9" height="175px" width="300px"/></a></div>
+					<div><a id="lien10" target="_blank"><img id="image10" height="175px" width="300px"/></a></div>
+					<div><a id="lien11" target="_blank"><img id="image11" height="175px" width="300px"/></a></div>
+					<div><a id="lien12" target="_blank"><img id="image12" height="175px" width="300px"/></a></div>
+					<div><a id="lien13" target="_blank"><img id="image13" height="175px" width="300px"/></a></div>
+					<div><a id="lien14" target="_blank"><img id="image14" height="175px" width="300px"/></a></div>
+					<div><a id="lien15" target="_blank"><img id="image15" height="175px" width="300px"/></a></div>
+					<div><a id="lien16" target="_blank"><img id="image16" height="175px" width="300px"/></a></div>
+					<div><a id="lien17" target="_blank"><img id="image17" height="175px" width="300px"/></a></div>
+					<div><a id="lien18" target="_blank"><img id="image18" height="175px" width="300px"/></a></div>
+					<div><a id="lien19" target="_blank"><img id="image19" height="175px" width="300px"/></a></div>
+				</div>
+			</main>
+			<footer>
+				<p>Copyright&copy; 2016 Indie Time, indietime.org - Tout droit réservé.</p>
+			</footer>	
+		</div>
+	</body>
+</html>
