@@ -184,6 +184,8 @@ time
 	background-color: white;
 	cursor: pointer;
 	white-space: nowrap;
+	-webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
 }
 .titre:hover
 {
@@ -219,12 +221,12 @@ time
 .img-left
 {
 	float: left;
-	margin: 0 5px 0 0;
+	margin-right: 5px;
 }
 .img-right
 {
 	float: right;
-	margin: 0 0 0 5px;
+	margin-left: 5px;
 }
 .corps p
 {
@@ -232,6 +234,16 @@ time
 	text-align: justify;
 	text-justify: inter-word;
 	text-indent: 35px;
+}
+.corps-footer
+{
+	display: flex;
+	padding-top: 10px;
+	border-top: 1px solid grey;
+}
+.corps-footer div
+{
+	margin-left: 5px;
 }
 
 

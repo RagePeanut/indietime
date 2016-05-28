@@ -174,6 +174,8 @@ main #accroche-taille p
 	border: none;
 	outline: none;
 	cursor: pointer;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
 }
 .dropdown-bouton:hover
 {
@@ -211,10 +213,17 @@ main #accroche-taille p
 	height: 175px;
 	width: 300px;
 	box-shadow: 0px 0px 10px grey;
+	-webkit-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
 }
 #liste div:hover
 {
 	box-shadow: 0px 0px 20px #0d0d0d;
+}
+#liste div a img
+{
+	-webkit-transition: -webkit-filter 0.3s, filter 0.3s;
+    transition: -webkit-filter 0.3s, filter 0.3s;
 }
 #liste div a img:hover
 {
