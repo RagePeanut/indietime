@@ -10,6 +10,10 @@ body
 	background-image: url("images/bg.png");
 	background-repeat: repeat;
 }
+h2
+{
+	font-size: 16px;
+}
 a
 {
 	text-decoration: none;
@@ -77,12 +81,12 @@ header ul
 	background-image: url("images/bg1.png");
 	background-repeat: repeat;
 }
-li a
+header li a
 {
 	color: black;
 	font-size: 120%;
 }
-li a:hover
+header li a:hover
 {
 	color: grey;
 }
@@ -161,6 +165,10 @@ time
 {
 	font-size: 15px;
 }
+q
+{
+	font-style: italic;
+}
 .clic
 {
 	height: 80px;
@@ -228,23 +236,48 @@ time
 	float: right;
 	margin-left: 5px;
 }
+.corps a
+{
+	color: grey;
+}
+.corps a img
+{
+	width: 100%;
+	margin-bottom: 5px;
+}
 .corps p
 {
 	margin: 0;
 	text-align: justify;
 	text-justify: inter-word;
-	text-indent: 35px;
+}
+.corps ul
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+.corps li
+{
+	margin-bottom: 5px;
+}
+.corps li div
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
 }
 .corps-footer
 {
 	display: flex;
 	padding-top: 10px;
+	margin-top: 10px;
 	border-top: 1px solid grey;
 }
 .corps-footer div
 {
 	margin-left: 5px;
 }
+
 
 
 

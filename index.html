@@ -6,6 +6,7 @@
 		<title>Indie Time: 100% indépendant</title>
 		<link rel="stylesheet" href="index-stylesheet.css"/>
 		<link rel="shortcut icon" href="favicon.ico"/>
+		<script src="jquery-2.2.4.min.js"></script>
 		<script src="random.js"></script>
 	</head>
 	<body onLoad="scrollbar()">
@@ -14,7 +15,7 @@
 				<ul id="entete">
 					<li class="block1"><a href="#entete"><img id="logo" src="images/logo.png" alt="Indie Time: Site 100% indépendant, jeux 100% indépendants"/></a></li>	
 					<li class="block2"><a class="lien1" href="#entete">Accueil</a></li>
-					<li class="block2"><a class="lien2" href="nouveautes.html">Actualités</a></li>			
+					<li class="block2"><a class="lien2" href="actualites.html">Actualités</a></li>			
 					<li class="block2"><a class="lien2" href="tests.html">Tests</a></li>
 					<li class="block2"><a class="lien2" href="halloffame.html">Hall of Fame</a></li>
 					<li class="block2"><a class="lien2" href="hallofshame.html">Hall of Shame</a></li>
@@ -28,8 +29,8 @@
 							</header>
 							<div id="news-scroll">
 								<article class="news-article">
-									<a href="https://fr.wikipedia.org/wiki/Super_Meat_Boy"><img src="images/jeu.png" width="125px" height="125px" alt="" class="news-img"></a>
-									<div class="news-text">		<!-- Afin d'avoir deux blocs à mettre l'un à côté de l'autre en flex et de pouvoir encore utiliser flex sur le header et le div à l'intérieur de ce bloc -->
+										<a href="https://fr.wikipedia.org/wiki/Super_Meat_Boy"><img src="images/jeu.png" width="125px" height="125px" alt="" class="news-img"></a>
+										<div class="news-text">		<!-- Afin d'avoir deux blocs à mettre l'un à côté de l'autre en flex et de pouvoir encore utiliser flex sur le header et le div à l'intérieur de ce bloc -->
 										<header>
 											<h2 class="news-individual-title">
 												<a href="https://fr.wikipedia.org/wiki/Super_Meat_Boy" rel="bookmark">Plus d'un million de copies vendues pour Super Meat Boy</a>		<!-- bookmark permet de donner le lien au parent le plus proche: h2 -->
@@ -46,7 +47,7 @@
 											carnifex rapinarum sequester et obductio capitum et bonorum ubique multatio versabatur per orientales provincias, quas recensere puto
 											nunc oportunum absque Mesopotamia digesta, cum bella Parthica dicerentur, et Aegypto, quam necessario aliud reieci ad tempus.</p>
 										</div>
-									</div>
+										</div>
 								</article>
 								<article class="news-article">
 									<a href="https://fr.wikipedia.org/wiki/Super_Meat_Boy"><img src="images/jeu.png" width="125px" height="125px" alt="" class="news-img"></a>
@@ -272,7 +273,7 @@
 							<div><a href="https://www.humblebundle.com/" target="_blank"><img src="images/bundle.png" height="175px" width="340px"/></a></div>
 						</section>
 						<div id="button">
-							<button onClick="scrollbar()">Click me to center !</button>
+							<button onClick="scrollbar()">Centrer</button>
 						</div>
 					</div>
 				</main>
