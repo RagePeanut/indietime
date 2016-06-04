@@ -12,15 +12,12 @@ body
 }
 h2
 {
-	font-size: 16px;
+	font-size: 14px;
+	margin-bottom: 5px;
 }
 a
 {
 	text-decoration: none;
-}
-a:visited
-{
-	color: black;
 }
 @font-face 
 {
@@ -85,6 +82,10 @@ header li a
 {
 	color: black;
 	font-size: 120%;
+}
+header li a:visited
+{
+	color: black;
 }
 header li a:hover
 {
@@ -181,23 +182,18 @@ q
 	flex-direction: column;
 	width: 100%;
 	height: auto;
-	background-color: #bedfeb;
+	background-image: url("images/articles/article.png");
 }
 .titre
 {
 	display: flex;
 	flex-direction: column;
-	height: 80px;
+	height: 79px;
 	width: 100%;
-	background-color: white;
+	background-image: url("images/articles/titre.png");
 	cursor: pointer;
 	white-space: nowrap;
-	-webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-}
-.titre:hover
-{
-	background-color: #D1D1D1;
+	border-bottom: 1px solid #d9d9d9;
 }
 .titre h1
 {
@@ -225,6 +221,8 @@ q
 .corps
 {
 	margin: 10px;
+	font-size: 14px;
+	font-family: "Montserrat";
 }
 .img-left
 {
@@ -239,6 +237,10 @@ q
 .corps a
 {
 	color: grey;
+}
+.corps a:hover
+{
+	text-decoration: underline; 
 }
 .corps a img
 {
@@ -255,6 +257,7 @@ q
 {
 	list-style-type: none;
 	padding-left: 0;
+	margin-top: 5px;
 }
 .corps li
 {
@@ -271,13 +274,16 @@ q
 	display: flex;
 	padding-top: 10px;
 	margin-top: 10px;
-	border-top: 1px solid grey;
+	border-top: 1px solid #d9d9d9;
 }
 .corps-footer div
 {
 	margin-left: 5px;
 }
-
+.corps-footer img
+{
+	border: 1px solid #d9d9d9;
+}
 
 
 
