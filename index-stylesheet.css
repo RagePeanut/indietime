@@ -190,6 +190,11 @@ article a
 	border-bottom: 1px solid #999999;
 	padding: 5px;
 }
+.news-img
+{
+	height: 125px;
+	width: 125px;
+}
 .news-text
 {
 	height: 95%;
@@ -263,6 +268,11 @@ h3
 	background-image: url("images/bg1.png");
 	font-family: "Dosis";
 }
+.dec-img
+{
+	width: 260px;
+	height: 140px;
+}
 /* Bundle */
 #main-block2
 {
@@ -305,6 +315,8 @@ h3
 	box-shadow: 0px 0px 20px grey;
 	-webkit-transition: width 0.5s, height 0.5s;
     transition: width 0.5s, height 0.5s;
+	height: 175px;
+	width: 340px;
 }
 #bundle img:hover
 {

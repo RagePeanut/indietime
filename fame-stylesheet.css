@@ -235,6 +235,8 @@ main #accroche-taille p
 {
 	-webkit-transition: -webkit-filter 0.3s, filter 0.3s;
     transition: -webkit-filter 0.3s, filter 0.3s;
+	height: 175px;
+	width: 300px;
 }
 #liste div a img:hover
 {

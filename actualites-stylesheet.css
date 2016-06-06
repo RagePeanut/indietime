@@ -22,6 +22,8 @@ a
 iframe
 {
 	border: 1px solid #d9d9d9;
+	width: 426px;
+	height: 239px;
 }
 @font-face 
 {
@@ -289,6 +291,8 @@ q
 .corps-footer img
 {
 	border: 1px solid #d9d9d9;
+	height: 75px;
+	width: 75px;
 }
 
 
