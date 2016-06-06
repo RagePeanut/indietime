@@ -12,12 +12,16 @@ body
 }
 h2
 {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 5px;
 }
 a
 {
 	text-decoration: none;
+}
+iframe
+{
+	border: 1px solid #d9d9d9;
 }
 @font-face 
 {
@@ -262,6 +266,8 @@ q
 .corps li
 {
 	margin-bottom: 5px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 .corps li div
 {
