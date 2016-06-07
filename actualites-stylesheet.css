@@ -209,6 +209,10 @@ q
 	text-align: center;
 	margin: 0;
 }
+.titre:hover h1
+{
+	color: grey;
+}
 .titre div 
 {
 	display: flex;
@@ -294,7 +298,19 @@ q
 	height: 75px;
 	width: 75px;
 }
-
+.close
+{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 100%;
+	background-color: #d9d9d9;
+}
+.close:hover
+{
+	background-color: #D1D1D1;
+	cursor: pointer;
+}
 
 
 /* Footer */

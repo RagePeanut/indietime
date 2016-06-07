@@ -143,7 +143,7 @@ main
 	margin-bottom: 10px;
 }
 /* News */
-@font-face         /* Provisoire */
+@font-face  
 {
 	font-family: 'BebasNeue';
 	font-style: normal;
@@ -247,6 +247,10 @@ h3
 {
 	background-image: url("images/bg1.png");
 }
+.jeux-decouverte:hover .jeux-prix p 
+{
+	background-image: url("images/bg1.png");
+}
 .jeux-info
 {
 	display: flex;
@@ -265,7 +269,7 @@ h3
 	width: 25%;
 	margin: 0px;
 	text-align: center;
-	background-image: url("images/bg1.png");
+	background-image: url("images/onglet.png");
 	font-family: "Dosis";
 }
 .dec-img
