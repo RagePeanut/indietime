@@ -1,20 +1,15 @@
-$(document).ready(function taille() {
-	$(".titre").click(function() {
-		var i = $(this).parent().parent();
-		if ($(i).css("height") == "80px") {
-				var j = $(this).parent().height();
-				$(i).animate({height:j+"px"}, 500);
-		} else {
-			$(i).animate({height:"80px"}, 500);
-		};
-	});
+$(document).ready(function article() {
+    $(".titre").click(function() {
+        var i = $(this).next().outerHeight();
+        var j = $(this).outerHeight();
+        var k = i+j+500;
+        if($(this).parent().css("max-height") == "80px") {
+            $(this).parent().css("max-height", k+"px");
+        } else {
+            $(this).parent().css("max-height", "80px");
+        };
+    });
 	$(".close").click(function() {
-		var i = $(this).parent().parent();
-		if ($(i).css("height") == "80px") {
-				var j = $(this).parent().height();
-				$(i).animate({height:j+"px"}, 500);
-		} else {
-			$(i).animate({height:"80px"}, 500);
-		};
-	});
+        $(this).parent().parent().css("max-height", "80px");
+    });
 });
