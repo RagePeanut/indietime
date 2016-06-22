@@ -196,7 +196,7 @@ q
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	min-height: 80px;
+	min-height: 79px;
 	width: 100%;
 	background-image: url("images/articles/titre.png");
 	cursor: pointer;
